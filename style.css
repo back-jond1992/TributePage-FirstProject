@@ -44,7 +44,7 @@ a {
     margin: 30px 8px;
     padding: 15px;
     border-radius: 5px;
-    background: #eee;
+    background: white;
 }
 
 @media (max-width: 460px) {
@@ -72,9 +72,12 @@ img {
 }
 
 @media (max-width: 460px) {
-    img-caption {
+    width: auto;
+    height: auto;
+    #img-caption {
         font-size: 1.4rem;
     }
+
 }
 
 #headline {
@@ -98,4 +101,9 @@ blockquote {
     max-width: 545px;
     margin: 0 auto 50px auto;
     text-align: left;
+}
+
+#title {
+    color: blue;
+    font-size: 100px;
 }
